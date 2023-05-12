@@ -8,6 +8,7 @@ using UnityEngine;
 
 public class PlayManager : MonoBehaviour
 {
+    private const string saveLevel = "SAVELEVEL";
     [SerializeField] private BallController ballController;
     [SerializeField] private CameraController camController;
     [SerializeField] private GameObject finishWindow;
@@ -17,6 +18,7 @@ public class PlayManager : MonoBehaviour
     private bool isBallTeleporting;
     private bool isGoal;
     private Vector3 lastBallPosition;
+    public float idLevel;
 
     private void OnEnable()
     {
@@ -48,6 +50,12 @@ public class PlayManager : MonoBehaviour
         ballController.enabled = false;
         finishWindow.gameObject.SetActive(true);
         finishText.text = "Finished!!\n" + "Shoot Count : " + ballController.ShootCount;
+        var lastLevel = PlayerPrefs.GetInt(saveLevel);
+        if (lastLevel <= idLevel)
+        {
+            lastLevel += 1;
+            PlayerPrefs.SetInt(saveLevel, lastLevel);
+        }
     }
 
     public void OnBallOutside()

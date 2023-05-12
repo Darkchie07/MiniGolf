@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: d48a7646f5d0547e889733d84b50cb9f, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.3069224, a: 1}
+  m_IndirectSpecularColor: {r: 0.096755706, g: 0.35171568, b: 0.7160293, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: 315563e119aa64648b51f4ce7c06d2a0, type: 2}
   m_LightingSettings: {fileID: 0}
 --- !u!196 &4
 NavMeshSettings:
@@ -514,7 +514,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 219177656}
-  m_LocalRotation: {x: 0.055005535, y: 0.42369246, z: -0.025787, w: 0.9037667}
+  m_LocalRotation: {x: 0.055005535, y: 0.4236925, z: -0.025787, w: 0.9037667}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -2145,7 +2145,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1252054813}
-  m_LocalRotation: {x: 0.087798506, y: 0.4224761, z: -0.041160583, w: 0.90117216}
+  m_LocalRotation: {x: 0.087798506, y: 0.42247614, z: -0.041160583, w: 0.90117216}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -2776,6 +2776,10 @@ PrefabInstance:
     - target: {fileID: 1389801748294390597, guid: b78bd3714961fef4fa0f70f017bfe020, type: 3}
       propertyPath: m_Name
       value: PlayManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 1389801748294390599, guid: b78bd3714961fef4fa0f70f017bfe020, type: 3}
+      propertyPath: idLevel
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1389801748294390599, guid: b78bd3714961fef4fa0f70f017bfe020, type: 3}
       propertyPath: finishText
