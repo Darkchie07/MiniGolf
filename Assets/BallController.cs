@@ -11,6 +11,8 @@ using UnityEngine.EventSystems;
 
 public class BallController : MonoBehaviour, IPointerDownHandler
 {
+    [SerializeField] private AudioClip hitBall;
+    [SerializeField] private AudioClip hitWall;
     [SerializeField] private Collider col;
     [SerializeField] private Rigidbody rb;
     [SerializeField] private float force;
@@ -80,6 +82,7 @@ public class BallController : MonoBehaviour, IPointerDownHandler
                 shoot = true;
                 shootingMode = false;
                 aimWorld.gameObject.SetActive(false);
+                SoundManager.Instance.playSFX(hitBall);
             }
         }
     }
@@ -112,5 +115,13 @@ public class BallController : MonoBehaviour, IPointerDownHandler
             return;
         }
         ShootingMode = true;
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Wall"))
+        {
+            SoundManager.Instance.playSFX(hitWall);
+        }
     }
 }

@@ -11,6 +11,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/LevelSelector.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MainMenu.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/SoundManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/UILevelManager.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -48,10 +49,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="15872">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="15872" />
+      <option name="pid" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -69,6 +70,7 @@
       <updated>1683897362211</updated>
       <workItem from="1683897366785" duration="945000" />
       <workItem from="1683901307011" duration="4005000" />
+      <workItem from="1683987607231" duration="1522000" />
     </task>
     <servers />
   </component>
@@ -91,76 +93,5 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/SoundManager.cs</url>
-          <line>55</line>
-          <properties documentPath="D:\UnityGit\MiniGolf\Assets\SoundManager.cs" initialLine="56" containingFunctionPresentation="method 'ToggleMute'">
-            <startOffsets>
-              <option value="1389" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1433" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/SoundManager.cs</url>
-          <line>56</line>
-          <properties documentPath="D:\UnityGit\MiniGolf\Assets\SoundManager.cs" initialLine="57" containingFunctionPresentation="method 'ToggleMute'">
-            <startOffsets>
-              <option value="1446" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1498" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/SoundManager.cs</url>
-          <line>57</line>
-          <properties documentPath="D:\UnityGit\MiniGolf\Assets\SoundManager.cs" initialLine="58" containingFunctionPresentation="method 'ToggleMute'">
-            <startOffsets>
-              <option value="1511" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1563" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/SoundManager.cs</url>
-          <line>59</line>
-          <properties documentPath="D:\UnityGit\MiniGolf\Assets\SoundManager.cs" initialLine="59" containingFunctionPresentation="method 'ToggleMute'">
-            <startOffsets>
-              <option value="1633" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1656" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/SoundManager.cs</url>
-          <line>60</line>
-          <properties documentPath="D:\UnityGit\MiniGolf\Assets\SoundManager.cs" initialLine="60" containingFunctionPresentation="method 'ToggleMute'">
-            <startOffsets>
-              <option value="1669" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1692" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

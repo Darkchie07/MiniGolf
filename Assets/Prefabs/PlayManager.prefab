@@ -44,8 +44,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6595dbce96eb11b43975f422d44b4ef5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  goal: {fileID: 8300000, guid: 5bafa9b2cddddcb4c9a3f09b344d8fa1, type: 3}
   ballController: {fileID: 0}
   camController: {fileID: 0}
   finishWindow: {fileID: 0}
   finishText: {fileID: 0}
   shootCountText: {fileID: 0}
+  idLevel: 0

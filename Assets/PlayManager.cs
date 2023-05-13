@@ -9,6 +9,7 @@ using UnityEngine;
 public class PlayManager : MonoBehaviour
 {
     private const string saveLevel = "SAVELEVEL";
+    [SerializeField] private AudioClip goal;
     [SerializeField] private BallController ballController;
     [SerializeField] private CameraController camController;
     [SerializeField] private GameObject finishWindow;
@@ -56,6 +57,7 @@ public class PlayManager : MonoBehaviour
             lastLevel += 1;
             PlayerPrefs.SetInt(saveLevel, lastLevel);
         }
+        SoundManager.Instance.playSFX(goal);
     }
 
     public void OnBallOutside()

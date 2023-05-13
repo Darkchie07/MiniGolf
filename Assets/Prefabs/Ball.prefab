@@ -128,6 +128,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 051f497527a785c4fa65d52e31072b87, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hitBall: {fileID: 8300000, guid: 1930616d0de7be347b9980f2c39a2d94, type: 3}
+  hitWall: {fileID: 8300000, guid: a1d51905284231a4daf1c7750a6335b1, type: 3}
   col: {fileID: 6113185109422479201}
   rb: {fileID: 6113185109422479228}
   force: 100

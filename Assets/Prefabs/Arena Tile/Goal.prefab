@@ -486,6 +486,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9388b40e48f3be48aed03c7a7577c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  OnBallGoalEnter:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &4082767376559224780
 GameObject:
   m_ObjectHideFlags: 0
@@ -500,7 +503,7 @@ GameObject:
   - component: {fileID: 6800822663422936406}
   m_Layer: 0
   m_Name: Cube (3)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -985,7 +988,7 @@ GameObject:
   - component: {fileID: 7032575727894913031}
   m_Layer: 0
   m_Name: Cube (1)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1218,7 +1221,7 @@ GameObject:
   - component: {fileID: 565627660261934689}
   m_Layer: 0
   m_Name: Cube (2)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
