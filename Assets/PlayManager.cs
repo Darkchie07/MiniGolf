@@ -69,7 +69,7 @@ public class PlayManager : MonoBehaviour
             Invoke("TeleportBallLastPosition", 3);
         ballController.enabled = false;
         isBallOutside = true;
-        isBallTeleporting = true;
+        isBallTeleporting = false;
     }
 
     public void TeleportBallLastPosition()

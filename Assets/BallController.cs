@@ -4,8 +4,6 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using UnityEngine;
 using Cinemachine;
-using OpenCover.Framework.Model;
-using UnityEditor.Experimental.GraphView;
 using UnityEngine.Events;
 using UnityEngine.EventSystems;
 
@@ -48,6 +46,7 @@ public class BallController : MonoBehaviour, IPointerDownHandler
             if (Input.GetMouseButtonDown(0))
             {
                 aimWorld.gameObject.SetActive(true);
+                aimLine.gameObject.SetActive(true);
                 plane = new Plane(Vector3.up, this.transform.position);
             }else if (Input.GetMouseButton(0))
             {
@@ -82,6 +81,7 @@ public class BallController : MonoBehaviour, IPointerDownHandler
                 shoot = true;
                 shootingMode = false;
                 aimWorld.gameObject.SetActive(false);
+                aimLine.gameObject.SetActive(false);
                 SoundManager.Instance.playSFX(hitBall);
             }
         }
